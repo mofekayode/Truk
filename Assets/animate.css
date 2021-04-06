@@ -1,0 +1,19 @@
+.down{
+  font-size:90px;
+  animation: transitionIn1 3s;
+  position: relative;
+  top:100px;
+  animation-iteration-count:infinite;
+}
+
+@keyframes transitionIn1 {
+ from{
+   transform: translateY(50px);
+   color:lime;
+
+ }
+  to{
+    transform: translateY(130px);
+    opacity:.2;
+  }
+}
